@@ -1,0 +1,159 @@
+.website{
+    
+}
+
+.menu{
+
+}
+
+.img{
+    width: 200px;
+}
+
+    .level3{
+        margin-top: 40px;
+        background-image: url('https://picsum.photos/500');
+        width:100%;
+        height: 500px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+        flex-direction: column;
+    }
+    
+    .level3 .h1b{
+        color:white;
+    }
+    
+    .level3 .button1{
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-left: 50px;
+        padding-right: 50px;
+    
+        border:1px solid black;
+        background-color:transparent;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .button1:hover{
+        background-color: black;
+        color: white;
+        transition: 0.5s all;
+    }
+
+.h1{
+    margin:50px ;
+    text-align: center;
+}
+
+.carousel .carousel-item {
+    height: 500px;  
+}
+
+.square{
+    background-image: url(https://picsum.photos/210);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;  
+    background-size: cover;
+    width: 288px;
+    height: 230px;
+}
+
+.rectangle{
+    margin-top: 35%;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+
+    width: 144px ;
+    height: 30px;
+}
+.p1{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold; 
+    margin-right: 50px;
+ 
+ }
+ .p23{
+    text-align: center;
+    font-weight: bold; 
+    margin-right: 50px;
+ 
+ }
+.p{
+    padding-left: 90px;
+
+   text-align: center;
+   font-weight: bold; 
+   margin-right: 50px;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.rectangle2{
+    padding-top: 40px;
+    margin-top: 3%;
+    background-color: #1d1919;
+
+
+    width: 100%;
+    height: 300px;
+    
+}
+
+.line{
+    border:#c72c41 ;
+    background-color: #c72c41;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 170px;
+    height: 4px
+}
+
+.level3 .h1b{
+    color:white;
+}
+
+.img2{
+    width: 90px;
+}
+
+.p2{
+    color: white;
+}
+
+.column {
+    margin-left: 50px;
+}
+
+.column b { 
+    color:white
+    
+}
+
+.rectangle2 p { 
+    text-align: center;  
+
+
+}
+
+.column p { 
+    color: white;
+    text-align: left;
+}
+
+.column1 {
+    display: flex;
+}

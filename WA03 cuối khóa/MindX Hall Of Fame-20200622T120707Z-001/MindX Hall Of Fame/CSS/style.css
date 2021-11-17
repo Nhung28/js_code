@@ -1,0 +1,57 @@
+ body {
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+.member img{
+    width: 200px;
+   
+}
+
+.member {
+    display: flex;
+}
+
+.bigmember {
+   display: flex;
+   margin-top: 40px;
+}
+
+.anothermember {
+   margin-left: 50px;
+   width: 25%;
+   margin-right: auto;
+   margin-left:110px; 
+}
+
+
+.lớp {
+    margin-bottom: 60px;
+}
+
+.lớp1 {
+    margin-bottom: 60px;
+}
+
+.lớp1 p{
+    color: #616161;
+}
+
+.lop3 {
+    text-align: center;
+}
+
+.member p{
+    margin: 0; 
+    margin-bottom: 30px; 
+}
+
+.member h3 {
+    margin: 0;
+    
+
+}
+
+
+
+
+    

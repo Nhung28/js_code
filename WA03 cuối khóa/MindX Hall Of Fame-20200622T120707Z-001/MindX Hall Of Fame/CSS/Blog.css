@@ -1,0 +1,193 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 200px;
+}
+
+.banner {
+    background-image: url('../img/coding\ image.jpg');
+    height: 500px;
+    background-size: cover;
+    background-position-y: -400px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner h1 {
+    width: 620px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.button button {
+    background-color: transparent;
+    border: 2px solid orangered;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-weight: 400;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.leftpost {
+    background-image: url('../img/image\ coding\ 2.jpg');
+    margin-left: 50px;
+
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    height: 357px;
+}
+.rightpost {
+    margin-left: 20px; 
+     
+}
+.rightpost .firstpost{
+    display: flex;
+    
+    
+}
+
+.rightpost img {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.highlight {
+    margin-top: 50px;
+    display: flex;
+}
+
+.rightpost .firstpost h3 {
+    margin-bottom: 0;
+}
+
+.rightpost .firstpost p {
+    margin-top: 5px;
+    color:orangered;
+}
+
+.rightpost .firstpost span {
+
+    color:gray;
+}
+
+.rightpost .other {
+    margin-top: 10px;
+}
+
+.leftpost2 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.leftpost2 img {
+    width: 250px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.leftpost3 p {
+    color: orangered;
+}
+
+.leftpost3 span {
+    color: grey;
+}
+
+.leftpost2
+
+.leftpost3 {
+    background-color: #323232;
+    width: 100px;
+    padding: 50px;
+}
+
+.leftpost3 {
+    display: flex;
+}
+
+.leftpost3 {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.leftpost3 img {
+    width: 260px;
+    height: 110px;
+    border-radius: 8px;
+    margin-right: 40px;
+    flex-grow: 2;
+}
+
+.leftpost3 p {
+    color: orangered;
+}
+
+.leftpost3 span {
+    color: grey;
+}
+
+
+
+
+.p2{
+    color: white;
+}
+
+.column {
+    margin-left: 50px;
+}
+
+.column b { 
+    color:white
+    
+}
+
+.rectangle2 p { 
+    text-align: center;  
+
+
+}
+
+.column p { 
+    color: white;
+    text-align: left;
+}
+
+.column1 {
+    display: flex;
+}
+
+.post {
+    display: flex;
+}
+
+.leftpost3 img{
+    overflow: hidden;
+}

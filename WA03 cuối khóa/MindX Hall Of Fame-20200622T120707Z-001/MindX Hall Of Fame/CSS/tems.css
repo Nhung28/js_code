@@ -1,0 +1,191 @@
+.img{
+    width: 200px;
+}
+.rectangle2 p{
+    color:white;
+}
+
+.img2{
+    width: 90px;
+}
+
+.img23{
+    width: 15px;
+}
+
+
+.dot {    
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-image: url(https://picsum.photos/200) ;
+  }
+
+.displayA {
+    margin-top:50px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.display {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.dot1 {
+    border-radius:  150px 150px 150px 150px;
+}
+
+.h1{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    -webkit-text-stroke: 2px red;
+    color: white;
+}
+
+.p{
+    margin: 0;
+    -webkit-text-stroke: 2px red;
+    color: white;
+}
+
+.p2{
+    margin-right: 100px;
+    margin-right: 200px;
+    text-align: center;
+    -webkit-text-stroke: 1px #1d1919;
+    color: rgb(17, 118, 233);
+}
+
+
+
+.display1 {
+    margin-top: 10px;
+    margin-right: 93px;
+    margin-left:30px;
+    margin-bottom:30px ;
+}
+
+.display2{
+    margin-top: 10px;
+    margin-right: 85px;
+    margin-left: 10px;
+    margin-bottom:30px ;
+}
+
+.display3 {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 15px;
+    margin-bottom:30px ;
+}
+
+.p2{
+    padding-left: 90px;
+
+    text-align: center;
+    font-weight: bold; 
+    margin-right: 50px;
+    margin-top: 1%;
+}
+
+.line{
+    border:#c72c41 ;
+    background-color: #c72c41;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+    height: 4px
+}
+
+.level3{
+    margin-top: 40px;
+    background-image: url('https://picsum.photos/500');
+    width:100%;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+}
+
+.level3 .h1b{
+    color:white;
+}
+
+.level3 .button1{
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    border:1px solid black;
+    background-color:transparent;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+}
+
+.h1aa{
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    -webkit-text-stroke: 2px white;
+    color: black;
+}
+
+hr{
+    width: 80%;
+}
+
+.discord{
+    display: flex;
+}
+
+.p2{
+    color: white;
+}
+
+.column {
+    margin-left: 50px;
+}
+
+.column b { 
+    color:white
+    
+}
+
+.rectangle2 p { 
+    text-align: center;  
+
+
+}
+
+.column p { 
+    color: white;
+    text-align: left;
+}
+
+.column1 {
+    display: flex;
+}
+
+.rectangle2{
+    margin-top: 3%;
+    padding-top: 5px;
+    background-color: #1d1919;
+
+
+    width: 100%;
+    height: 300px;
+    
+}

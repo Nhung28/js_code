@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.tenlop {
+   display: flex;
+   justify-content: center;
+}
+
+.box img {
+    width:  200px;
+    
+}
+
+.box {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box div {
+    margin-left: 50px ;
+   
+}
+
+.title h1 {
+    width: 400px;
+    color: darkslategray;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.tenlop p {
+    width: 600px;
+    color: darkslategray;
+    font-size: 25px;
+    font-weight: unset;
+    text-align: center;
+}
+
+.box1 img {
+    border-radius: 50px; 
+}
+
+.box1 h3 {
+    color: darkslategray;
+    font-size: 25px;
+    font-weight: unset;
+}

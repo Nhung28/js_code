@@ -1,0 +1,54 @@
+.logo {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.menu {
+  background-color: #fff;
+  padding: 0 50px;
+}
+
+.rectangle2{
+  padding-top: 40px;
+  margin-top: 3%;
+  background-color: #1d1919;
+
+
+  width: 100%;
+  height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.p2{
+  color: white;
+}
+
+.column {
+  margin-left: 50px;
+  margin-bottom: 70px;
+}
+
+.column b { 
+  color:white
+  
+}
+
+.rectangle2 p { 
+  text-align: center;  
+
+
+}
+
+.column p { 
+  color: white;
+  text-align: left;
+}
+
+.column1 {
+  display: flex;
+}
+
+.img2{
+  width: 90px;
+}

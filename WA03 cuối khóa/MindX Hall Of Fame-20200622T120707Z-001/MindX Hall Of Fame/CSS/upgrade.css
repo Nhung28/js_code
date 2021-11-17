@@ -1,0 +1,202 @@
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.menu {
+    background-color: #fff;
+    padding: 0 50px;
+}
+.level3{
+    background-image: url("../img/ảnh\ lớp.jpg");
+    width:100%;
+    height: 530px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.level3:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .3; 
+    
+  }
+
+.level3 .h1b{
+    color:white;    
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.level3 a {
+    z-index: 10;
+}
+
+.level3 .button1{
+    margin-top: 10px;
+    padding: 6px 12px;
+    color: white;
+    border:1px solid white;
+    background-color:transparent;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.classes {
+    background-image: url('../img/classes.jpg');
+}
+
+.activity {
+    background-image: url('../img/acitivty.jpg');
+}
+
+.button1:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s all;
+    border: 1px solid black;
+}
+
+.level3 h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 1;
+}
+
+.level3 h1 {
+
+}
+
+.image {
+    width: 250px;
+}
+
+
+.honored h1 {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.honored_stuent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.honored_stuent .student {
+    width: 21.5%;
+    position: relative;
+    margin-top: 20px;
+}
+
+.honored_stuent .student h4{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left:25%;
+}
+
+/* hieu */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.name {
+    display: flex;
+    margin: 20px;
+    padding: 0 60px;
+}
+
+.class {
+    width: 90%;
+    
+}
+
+
+
+.read {
+    text-align: center;
+}
+
+.content img {
+    width: 100%;
+}
+
+
+.content h1 {
+    text-align: center;
+}
+ .read p {
+     font-size: 22px;
+     color: #616161
+    
+ }
+
+ .name {
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     margin-top: -4px;
+    margin-bottom: 30px;
+ }
+
+.read h3 {
+    font-size: 32px;
+    color: #313131;
+    margin-bottom: 10px; 
+}
+.name2 {
+    width: 302px;
+    margin: 0 auto;
+    position : relative;
+    font-family: Arial;
+    
+}
+.name img {
+    width: 302px;
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.name img:hover {
+    -webkit-filter: grayscale(0);
+}
+
+.name3 {
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 50px;
+    width: 280px;
+    color: #ffffff;
+    text-align: left;
+    position: absolute;
+    bottom: 22px;
+}
+.name3 p {
+     margin: 0;
+}
+
+
+
+
+

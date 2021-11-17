@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/article.css" />
+    <link rel="stylesheet" href="Blog.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./dist/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./CSS/headerFooter.css" />
+  </head>
+
+  <body>
+    <!-- navs -->
+    <div class="menu">
+        <!-- navs -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <img src="./img/logo.png" class="logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="./Homepage.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="HallOfFame.html"
+                  >Hall of Fame</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./class.html">Our Classes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tieudiem.html">Activities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+    <!-- banner -->
+    <div class="banner">
+      <div class="info"></div>
+    </div>
+    <div class="all-content">
+      <div class="content">
+        <h1>
+          What should front-end programmers who are newbies put in their
+          pockets?
+        </h1>
+        <img
+          src="https://resources.mindx.edu.vn/uploads/images/a643bbb5-d060-4e9d-8c18-444d982ba336.jpg"
+        />
+        <h5>
+          Frondend dev is the one who will handle the interaction with the user
+          directly, so I understand roughly the dev's work and skills will be
+          equivalent and need to increase according to what the user can
+          receive.
+        </h5>
+
+        <p>For example:</p>
+
+        <p>
+          •In the account login interface, users need 2 input boxes and a submit
+          button, then the frontend dev will only need basic HTML skills.
+        </p>
+        <p>
+          •However, when that interface is placed in the total interface of the
+          site, with headers, navigation, footers, ... then it is natural to
+          know the CSS.
+        </p>
+        <p>
+          •And when you have finished logging in, the browser does not need to
+          reload, but the user is able to login successfully and access the
+          content, then processing your asynchronous Javascript is
+          indispensable. .
+        </p>
+
+        <p>
+          So here are some things I find to be better if you start to notice
+          them.
+        </p>
+        <h5>1. What should Frontend dev's bags put in soon?</h5>
+        <h4>Comment when writing HTML</h4>
+        <p>
+          <xmp>
+                    <!-- BEGIN div-header -->
+                    <div id="header">
+                        <p>Viblo</p>
+                    </div>
+                    <!-- END div-header -->
+
+                    <!-- BEGIN div-body -->
+                    <div id="body">
+                        ...
+                    </div>
+                    <!-- END div-body -->
+
+                    <!-- BEGIN div-footer -->
+                    <div id="footer">
+                        <p>Footer</p>
+                    </div>
+                    <!-- END div-footer -->
+                </xmp>
+        </p>
+        <p>
+          Not much is said about the effect of commenting in code. When writing
+          long code, it is normal to close large tags, but with comments,
+          everything becomes much easier, right.
+        </p>
+        <h5>Bootstrap or not Bootstrap?</h5>
+
+        <img
+          src="https://viblo.asia/uploads/0e6752a1-f5d8-475c-85ff-3b88cbe917e3.jpg"
+        />
+        <p>
+          The most popular responsive framework. The convenience of using it has
+          been proven in every corner of the world, as long as that dev is
+          sitting. However, have you ever encountered the situation if the
+          project does not use Bootstrap anymore and do not know how to write
+          CSS yet? Mastering Bootstrap is great, but try to master your CSS
+          skills from the start. Don't just point at Bootstrap to see how they
+          named the class, but let's F12 up and see how they did it.
+        </p>
+
+        <xmp class="xmp">
+                <div class="alert alert-primary" role="alert">
+                    This is a primary alert—check it out!
+                </div>
+            </xmp>
+        <p>
+          It's simple, 3 lines but not really easy, so if you want to customize
+          it, master it well.
+        </p>
+
+        <xmp
+>
+                .alert {
+                position: relative;
+                padding: .75rem 1.25rem;
+                margin-bottom: 1rem;
+                border: 1px solid transparent;
+                border-radius: .25rem;
+                }
+
+                .alert-primary {
+                color: #004085;
+                background-color: #cce5ff;
+                border-color: #b8daff;
+                }
+            </xmp
+        >
+
+        <p>
+          One more thing, Bootstrap is quite heavy, and when done, surprise ...
+          your page is no different from other people's pages. So please use
+          Bootstrap properly, do not leave it as shown above, then when you
+          surprise episode 2, you quit.
+        </p>
+        <h5>Semantic Markup</h5>
+        <p>
+          When Bootstrap is no longer in your pocket, getting acquainted with
+          the Semantic Markup will help the Frontend road be less difficult.
+        </p>
+        <xmp class="xmp2">
+                <!-- HTML -->
+                <!-- Bad Semantics -->
+                <div class="article">
+                    <div class="article_title">Title</div>
+                    <div class="the_content">Content
+                        <div class="darkbold">text</div>
+                        Content
+                    </div>
+                </div>
+
+                <!-- Good Semantics -->
+                <article>
+                    <h1>Title</h1>
+                    <p>Content
+                        <b>Text</b>
+                        Content
+                    </p>
+                </article>
+            </xmp>
+
+        <p>
+          Try to find out what BEM is and try to change the naming of your class
+          according to the rules to see if it is worth taking with you:
+        </p>
+
+        <xmp>
+                <!-- HTML -->
+                <a class="btn btn--big btn--orange">
+                    <span class="btn__price">
+                    $9.99</span>
+                    <span class="btn__text">
+                    Subscribe</span>
+                </a>
+                <!-- CSS -->
+                /* Một Block (khối) độc lập */
+                .btn {}
+
+                /* Element (phần tử) con, phụ 
+                thuộc vào Block ở trên */
+                .btn__price {}
+
+                /* Modifier (bộ điều chỉnh) 
+                thay đổi trạng thái của Block */
+                .btn--orange {}
+                .btn--big {}
+            </xmp>
+
+        <p>
+          Optimize writing HTML and CSS code by using proper HTML tags and
+          naming the CSS class which means it is a good habit and not difficult
+          to get used to and learn it so try to use it early.
+        </p>
+
+        <h5>Javascript HTML DOM</h5>
+        <p>
+          Learning Javascript is a must for a Frontend dev, to master it and
+          develop when used with Frameworks is really difficult. However, try to
+          go from the most basic, do not rush too JQuery or other Frameworks.
+          And it is important to understand the DOM carefully, everything will
+          go far back to the DOM.
+        </p>
+
+        <div class="line">
+          <h6>
+            •DOM document: is responsible for storing all components in the
+            document of the website
+          </h6>
+          <h6>
+            •DOM element: is responsible for accessing certain HTML tags through
+            properties such as class name, id, and name of HTML tag
+          </h6>
+          <h6>
+            •DOM HTML: is responsible for changing the content value and
+            attribute value of HTML tags
+          </h6>
+          <h6>
+            •DOM CSS: is responsible for changing the CSS format of the HTML
+            tags
+          </h6>
+          <h6>
+            •DOM Event: is responsible for assigning events like onclick (),
+            onload () to HTML tags
+          </h6>
+          <h6>
+            •DOM Listener: is responsible for listening for events acting on
+            that HTML tag
+          </h6>
+          <h6>
+            •DOM Navigation: used to manage and manipulate HTML tags, showing
+            the parent-child relationship of HTML tags
+          </h6>
+          <h6>
+            •DOM Node, Nodelist: is tasked with manipulating HTML through
+            objects
+          </h6>
+        </div>
+
+        <img
+          src="https://viblo.asia/uploads/full/ed62e72e-8ce4-45d2-b115-d4c6fee05b1c.gif"
+        />
+
+        <h5>Find out the differences between browsers</h5>
+        <img
+          src="https://viblo.asia/uploads/d1ca9453-0e1f-4485-bd20-e97480050280.png"
+        />
+        <p>
+          Hãy thử code của mình trên các trình duyệt khác nhau, vì không phải
+          người dùng nào cũng có Chrome hay Firefox để vừa làm vừa test như dev
+          đúng không. Một vài thuộc tính CSS như transition cần vendor prefixes
+          để làm việc trên nhiều trình duyệt.
+        </p>
+
+        <h5>Extensions</h5>
+
+        <p>
+          Some extensions that I used to use in Chrome browser from the time I
+          learned until now, good code but faster is better, right.
+        </p>
+
+        <a
+          class="a-tag"
+          href="https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg?hl=vi"
+          >Wappalyzer</a
+        >
+
+        <img
+          src="https://viblo.asia/uploads/32db6dc7-5558-4c9e-892a-d721c9a5cbc8.jpg"
+        />
+
+        <p>
+          Visiting a beautiful website, with smooth animations, Frontend users
+          are curious as to what technologies the site is using to do so.
+          Wappalyzer is this tool that allows us to know the technologies used
+          in a website
+        </p>
+
+        <a
+          class="a-tag"
+          href="https://chrome.google.com/webstore/detail/fonts-ninja/eljapbgkmlngdpckoiiibecpemleclhh?hl=vi"
+          >Fonts Ninja
+        </a>
+
+        <img
+          src="https://viblo.asia/uploads/18dbd588-cf26-4fd0-8e0e-ed31d2e09809.jpg"
+        />
+
+        <p>
+          Fontface Ninja is an extension that allows us to know the type of font
+          used on any web page. The tool displays the name, size, line spacing
+          and letter spacing of the font.
+        </p>
+
+        <a
+          class="https://chrome.google.com/webstore/detail/page-ruler-redux/giejhjebcalaheckengmchjekofhhmal?hl=en"
+          href=""
+          >Page Ruler Redux</a
+        >
+
+        <img
+          src="https://lh3.googleusercontent.com/A8AEh-tO3YIrTTiA_Vr28RSIxHeWTYosgsetBO46hXt34GwUZiR-gLUoDXAZB2W_6s_Ntxhk0dM=w640-h400-e365"
+        />
+
+        <p>
+          This is a tool to bring the accuracy of the distance and the size of
+          the component between the design and HTML.
+        </p>
+        <a
+          class="a-tag"
+          href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=vi"
+          >Postman</a
+        >
+
+        <img
+          src="https://viblo.asia/uploads/26a536ed-606d-4d26-a486-89a2d0ce9589.jpg"
+        />
+        <p>
+          In the process of being a Frontend dev, we often have to query the
+          API. Postman is a convenient tool to help us request APIs.
+        </p>
+
+        <a
+          class="a-tag"
+          href="https://chrome.google.com/webstore/detail/full-page-screen-capture/fdpohaocaechififmbbbbbknoalclacl?hl=vi"
+          >Full Page Screen Capture
+        </a>
+
+        <img
+          src="https://viblo.asia/uploads/9b321023-ee2f-47e5-b74b-5afd5ad7bb3c.png"
+        />
+
+        <p>
+          Full Page Screen Capture allows capturing the current page from the
+          beginning to the end of the page, so it is useful to capture the
+          entire page as HTML compared to the design to see if it is correct.
+        </p>
+      </div>
+    </div>
+
+    <div class="recommended">
+      <div class="recommendedAll">
+        <img
+          src="https://resources.mindx.edu.vn/uploads/images/unplugged mourse.png"
+        />
+        <h5>Learn programming without a</h5>
+        <h5>computer - Mouse game forage</h5>
+      </div>
+
+      <div class="recommendedAll">
+        <img
+          src="https://resources.mindx.edu.vn/uploads/images/unplugged mourse.png"
+        />
+        <h5>Learn programming without a</h5>
+        <h5>computer - Mouse game forage</h5>
+      </div>
+
+      <div class="recommendedAll">
+        <img
+          src="https://resources.mindx.edu.vn/uploads/images/unplugged mourse.png"
+        />
+        <h5>Learn programming without a</h5>
+        <h5>computer - Mouse game forage</h5>
+      </div>
+    </div>
+    <div class="rectangle2">
+      <div class="column1">
+        <div class="column">
+          <b>About MindX</b>
+          <p>About us</p>
+        </div>
+
+        <div class="column">
+          <b>Contacts:</b>
+          <p>Hữu Quang</p>
+          <p>Trung Hiếu</p>
+          <p>Hồng Nhung</p>
+        </div>
+      </div>
+
+      <p class="p2">
+        ©Copyright
+        <img
+          src="https://mindxspace.com/image/Logo%20mindX-05%20trang%20ngang.png"
+          class="img2"
+        />2019-2020
+      </p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./dist/owl.carousel.min.js"></script>
+    <script src="./article.js"></script>
+  </body>
+</html>
