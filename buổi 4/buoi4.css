@@ -1,0 +1,42 @@
+body{
+    cursor: url(https://i.imgur.com/wgEyvOL.png), auto;
+    min-height: 100vh;
+    
+  }
+  .card{
+    font-family: 'Lora', serif;
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+    box-shadow: 3px 4px 10px grey;
+  }
+  .rank{
+    font-weight: 900;
+    padding-left: 4px;
+    font-size: 1.1rem;
+  }
+  .small-suit{
+    width:20px;
+    height:20px;
+  }
+  .big-suit{
+    display: flex;
+    justify-content: center;
+  }
+  .big-suit img{
+    width:50px;
+    height:55px;
+  }
+  .flip{
+    transform: rotate(180deg)
+  }
+  
+  .black{
+    color: black;
+  }
+  .red{
+      color: #e55738;
+  }
